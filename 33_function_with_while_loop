@@ -1,0 +1,16 @@
+def get_name(first_name,last_name):
+	"""Return a full name. """
+	full_name = first_name + ' ' + last_name
+	return full_name.title()
+while True:
+	print("\nEnter your name, please.")
+	print("quiType quit at any time to quit.")
+
+	f_name = input("First name: ")
+	if f_name == 'quit' :
+		break
+	l_name = input("Last name: ")
+	if l_name == 'quit' :
+		break
+	name = get_name(f_name,l_name)
+	print("\nHello, " + name + "!")
