@@ -1,0 +1,7 @@
+name = "Rojina Aghazadeh"
+print(name.title())
+
+first_name = "Rojina"
+last_name = "Aghazadeh"
+full_name = first_name + " " + last_name
+print("Hello, " + full_name.title() + "!")
